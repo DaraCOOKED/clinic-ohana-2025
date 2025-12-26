@@ -1,59 +1,98 @@
-/* Reset basic margins */
 body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
     margin: 0;
     padding: 0;
-    font-family: "Times New Roman", Times, serif;
+    background-color: #f9f9f9;
 }
 
-/* --- Top Section --- */
-.header-banner {
-    background-color: #fdf5f0; /* Soft peach color */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 2px solid #e0d1d1;
     text-align: center;
-    /* Use padding to create height without a fixed 'height' property */
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding: 20px 0;
 }
 
-.main-title {
-    font-size: 48px;
-    font-weight: 300;
-    color: #5d4037;
-    letter-spacing: 5px; /* Creates that airy look */
-    margin-bottom: 50px;
+.header h1 {
+    color: #b5838d; /* Muted rose/medical tone */
+    margin: 0;
 }
 
-.breadcrumb-nav {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: #8d6e63;
-}
-
-/* --- Bottom Section --- */
-.philosophy-container {
+.hero-section h2 {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    color: #6d597a;
+    margin-bottom: 30px;
 }
 
-.sub-title {
-    font-size: 32px;
-    letter-spacing: 3px;
-    color: #5d4037;
+/* Image Placeholders */
+.image-placeholder {
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border: 1px dashed #aaa;
+    border-radius: 8px;
     margin-bottom: 15px;
 }
 
-/* The small colored line */
-.color-divider {
-    width: 80px;
-    height: 4px; /* We use height for thin lines, just not for layout containers */
-    margin: 0 auto 40px;
-    background: linear-gradient(to right, #f8bbd0, #ffe0b2);
+.main-banner {
+    height: 300px;
+    width: 100%;
 }
 
-.quote {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333;
+.small {
+    height: 180px;
+    width: 100%;
 }
 
-.HI
+/* Cards & Layout */
+.card {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.tagline {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #b5838d;
+    border-left: 4px solid #b5838d;
+    padding-left: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 20px;
+}
+
+.clinic-info {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+    background: #eee;
+}
+
+/* Responsive adjustment */
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
