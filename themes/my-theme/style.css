@@ -65,6 +65,7 @@
   transition: width 0.25s ease;
 }
 
+
 .pro-nav a:hover::after {
   width: 100%;
 }
@@ -178,5 +179,4 @@
     width: 100px;
     height: auto;
 }
-
 
