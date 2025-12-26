@@ -146,6 +146,22 @@
     <div class="swiper-pagination"></div>
   </div>
 
+
+  <section class="appointment-cta">
+  <div class="appointment-cta__container">
+    <h2>Make an appointment with an ophthalmologist</h2>
+
+    <p class="appointment-cta__phone">
+      Have questions?
+      <a href="tel:+855087465283">(+855) 097-566-9924</a>
+    </p>
+
+    <a href="/contact" class="appointment-cta__btn">
+       	Book an Appointment
+    </a>
+  </div>
+</section>
+
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
  
@@ -169,6 +185,9 @@
 });
 
   </script>
+
+  
+
 
 	
 	<?php get_footer(); ?>
