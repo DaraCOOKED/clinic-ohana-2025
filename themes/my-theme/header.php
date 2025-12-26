@@ -8,7 +8,6 @@
     <div class="logo">
       <a href="#">Ohana Clinic</a>
     </div>
-
                      
     <nav class="pro-nav">
       <a href="">Home</a> 
