@@ -2,79 +2,92 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
 }
 
-.header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+.pro-header {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  z-index: 1000;
 }
 
-.header-inner {
-  max-width: 1200px;
+
+
+.pro-inner {
+  max-width: 1240px;
   margin: 0 auto;
-  padding: 18px 24px;
+  padding: 18px 28px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo a {
-  font-size: 18px;
+.pro-logo {
+  font-size: 19px;
   font-weight: 600;
-  color: #111;
-  text-decoration: none;
+  color: #0f172a;
+  letter-spacing: 0.2px;
 }
 
-.nav {
+.pro-logo img{
+    width: 80px;
+    height: auto;
+}
+
+.pro-nav {
   display: flex;
-  gap: 32px;
+  gap: 34px;
 }
 
-.main-nav a {
-  font-size: 14px;
+.pro-nav a {
+  font-size: 18px;
   font-weight: 500;
-  color: #333;
+  color: #475569;
   text-decoration: none;
+  position: relative;
 }
 
-.main-nav a:hover {
-  color: #000;
+.pro-nav a:hover {
+  color: #0f172a;
 }
 
-.header-cta {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+.pro-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: #0f172a;
+  transition: width 0.25s ease;
 }
 
-.phone {
-  font-size: 14px;
-  font-weight: 500;
-  color: #374151;
+.pro-nav a:hover::after {
+  width: 100%;
 }
 
-.nav a:hover {
-  color: #111827;
-}
-
-.cta {
+.pro-cta {
+  padding: 9px 18px;
   font-size: 13px;
   font-weight: 500;
-  padding: 8px 14px;
-  border: 1px solid #d1d5db;
-  border-radius: 6px;
-  color: #111827;
+  background: #0f172a;
+  color: #ffffff;
+  border-radius: 8px;
   text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.cta:hover {
-  background: #f9fafb;
+.pro-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.15);
 }
 
 /* Mobile */
-@media (max-width: 800px) {
-  .nav {
+@media (max-width: 900px) {
+  .pro-nav {
     display: none;
   }
 }
