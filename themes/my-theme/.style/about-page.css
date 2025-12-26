@@ -147,21 +147,10 @@ body {
     text-align: center;
 }
 
-/* Footer */
-.footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+.quote {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
 }
 
-/* Responsive adjustment */
-@media (max-width: 768px) {
-    .philosophy-main {
-        flex-direction: column;
-    }
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-}
+.HI
