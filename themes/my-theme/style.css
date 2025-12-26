@@ -1,75 +1,89 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.clinic-header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-.header-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 14px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* Header Navbar */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.logo a {
-  font-size: 18px;
-  font-weight: 600;
-  color: #111;
-  text-decoration: none;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.main-nav {
-  display: flex;
-  gap: 28px;
+.nav-links {
+    display: flex;
+    list-style-type: none;
 }
 
-.main-nav a {
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
-  text-decoration: none;
+.nav-links li {
+    margin-right: 20px;
 }
 
-.main-nav a:hover {
-  color: #000;
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
 }
 
-.header-cta {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+.nav-links li a:hover {
+    color: #f27a54;
 }
 
-.phone {
-  font-size: 14px;
-  font-weight: 500;
-  color: #111;
+.contact-info p {
+    font-size: 18px;
+    color: #333;
 }
 
-.book {
-  font-size: 13px;
-  padding: 6px 12px;
-  background: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
 }
 
-.book:hover {
-  opacity: 0.9;
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
-/* Mobile: hide menu */
-@media (max-width: 860px) {
-  .main-nav {
-    display: none;
-  }
+.hero-text p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    background-color: #f27a54;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e16144;
 }
