@@ -5,10 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinic Home Pa   ge | Inspired by Keiai</title>
+    <title>Clinic Home Page | Inspired by Keiai</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/main.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -96,7 +95,6 @@
                 <div class="image-placeholder small-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/care.png" alt="Ohana Clinic">
                 </div>
-
                 <h3>Consistent Care by the Director</h3>
                 <p>To avoid discrepancies in treatment plans, the Director personally handles policy decisions, consultations, and surgeries. This ensures a consistent medical opinion and an environment where it is easy to communicate your wishes.</p>
             </div>
@@ -105,13 +103,11 @@
                 <div class="image-placeholder small-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/counseling.png" alt="Ohana Clinic">
                 </div>
-
                 <h3>Counseling Support</h3>
                 <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
             </div>
 
             <div class="strength-card">
-    <div class="image-placeholder small-img"><span>IMAGE: TECHNOLOGY</span></div>
                 <div class="image-placeholder small-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/technology.png" alt="Ohana Clinic">
                 </div>
