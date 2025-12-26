@@ -19,11 +19,11 @@
   justify-content: space-between;
 }
 
-.logo a {
-  font-size: 18px;
-  font-weight: 600;
-  color: #111;
-  text-decoration: none;
+
+
+.logo img {
+  width: 75px;
+  height: auto;
 }
 
 .main-nav {
@@ -35,7 +35,9 @@
   font-size: 14px;
   font-weight: 500;
   color: #333;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #000;      /* Change color */
+  text-decoration-thickness: 1.5px;
 }
 
 .main-nav a:hover {

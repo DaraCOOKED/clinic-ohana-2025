@@ -6,7 +6,7 @@
 <header class="clinic-header">
   <div class="header-inner">
     <div class="logo">
-      <a href="#">Ohana Clinic</a>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/output.png" alt="Ohana Clinic">
     </div>
 
     <nav class="main-nav">
@@ -20,7 +20,7 @@
 
     <div class="header-cta">
       <span class="phone">03-3987-3090</span>
-      <a href="#" class="book">Web Booking</a>
+      <a href="#" class="book">Find Us</a>
     </div>
   </div>
 </header>
