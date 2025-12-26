@@ -5,26 +5,30 @@
 <body <?php body_class(); ?>>
     <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
 <header>
- <!-- Header Navbar -->
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="https://monkeytype.com/images/mtsocial.png" alt="Keiai Clinic">
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">First Visit Information</a></li>
-                <li><a href="#">About Our Hospital</a></li>
-                <li><a href="#">Medical Information</a></li>
-                <li><a href="#">Inquiry</a></li>
-                <li><a href="#">Access & Consultation Hours</a></li>
-                <li><a href="#">Online Reservation</a></li>
-            </ul>
-            <div class="contact-info">
-                <p>03-3987-3090</p>
-            </div>
-        </nav>
-    </header>
+
+
+
+<header class="clinic-header">
+  <div class="header-inner">
+    <div class="logo">
+      <a href="#">Ohana Clinic</a>
+    </div>
+
+    <nav class="main-nav">
+      <a href="#">Home</a>
+      <a href="#">First Visit</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#">Access</a>
+    </nav>
+
+    <div class="header-cta">
+      <a href="#" class="phone">03-3987-3090</a>
+      <a href="#" class="book">Web予約</a>
+    </div>
+  </div>
+</header>
 
     <!-- Hero Section -->
     <section class="hero">
