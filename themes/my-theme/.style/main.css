@@ -1,0 +1,159 @@
+
+/* Full Screen Hero */
+.hero-section {
+    height: 90vh;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+.overlay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Sections */
+.section-title {
+    font-size: 2rem;
+    color: #6b4f4f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.catchphrase {
+    font-size: 1.5rem;
+    color: #d4a373;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.philosophy-main {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.text-block {
+    flex: 1;
+}
+
+/* Image Placeholders */
+.image-placeholder {
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px dashed #ccc;
+}
+
+.main-img {
+    flex: 1;
+    height: 400px;
+}
+
+.small-img {
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+/* Strengths Grid */
+.strengths-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.strength-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.strength-card:hover {
+    transform: translateY(-5px);
+}
+
+.strength-card h3 {
+    margin-bottom: 10px;
+    color: #6b4f4f;
+}
+
+/* Referrals */
+.referral-section {
+    background-color: #f0ebe3;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .philosophy-main {
+        flex-direction: column;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+}
