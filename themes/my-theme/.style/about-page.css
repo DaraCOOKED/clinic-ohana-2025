@@ -434,3 +434,28 @@ textarea {
  .form-group label p{
     margin-right: 200px;
  }
+
+.logoSwiper {
+  background: #2f7cc4;
+  padding: 15px 0;
+}
+
+.logoSwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoSwiper img {
+  height: 60px;
+  object-fit: contain;
+  filter: brightness(1.1);
+}
+
+@media (max-width: 768px) {
+  .logoSwiper img {
+    height: 40px;
+  }
+}
+
+ 

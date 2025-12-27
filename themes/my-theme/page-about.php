@@ -193,6 +193,18 @@
   </form>
 </section>
 
+<section>
+<div class="swiper logoSwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-1.avif"></div>
+    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-2.avif"></div>
+    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-3.avif"></div>
+    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-4.avif"></div>
+    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-5.avif"></div>
+  </div>
+</div>
+</section>
+
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
  
@@ -214,6 +226,21 @@
 	  pauseOnMouseEnter: true,
   },
 });
+
+for (let i = 0; i < array.length; i++) {
+  const element = array[i];
+  const swiper = new Swiper('.logoSwiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 25,
+    loop: true,
+    speed: 1500,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: true,
+      pauseOnMouseEnter: true,
+    },
+  });
+}
 
   </script>
 
