@@ -162,6 +162,37 @@
   </div>
 </section>
 
+
+
+<section class="contact-section">
+  <h2 class="contact-title">Contact Us</h2>
+
+  <form class="contact-form">
+    <div class="form-group">
+      <label>Full Name</label>
+      <input type="text" placeholder="Your full name" required>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label><p>Email</p></label>
+        <input type="email" placeholder="e.g. adamsmith@company.com" required>
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="e.g. 123-456-7890" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Message</label>
+      <textarea placeholder="Your message"></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</section>
+
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
  
@@ -178,9 +209,9 @@
   },
 
   autoplay: {
-    delay: 1500,
+    delay: 1250,
     disableOnInteraction: true,
-	pauseOnMouseEnter: true,
+	  pauseOnMouseEnter: true,
   },
 });
 
