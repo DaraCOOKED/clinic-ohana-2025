@@ -88,4 +88,13 @@
     display: none;
   }
 }
+
+.footer-bottom{
+    margin: auto;
+}
+
+.footer-logo img{
+    width: 100px;
+    height: auto;
+}
 }
