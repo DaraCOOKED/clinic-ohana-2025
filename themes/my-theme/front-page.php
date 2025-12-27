@@ -1,18 +1,21 @@
+<?php get_header(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About-Page</title>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/about-page.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Home Page | Inspired by Keiai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/main.css">
 
 </head>
 <body>
 
-	<?php get_header(); ?>
+    <?php get_header(); ?>
 
-	<header class="hero-section">
+    
+    <header class="hero-section">
         <div class="overlay">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/banner.jpg" alt="Ohana Clinic">
             <div class="hero-content">
@@ -71,13 +74,3 @@
         </section>
 
     </main>
-
-    <footer class="footer">
-        <p>&copy; <?php echo date("Y"); ?> Keiai Clinic. All Rights Reserved.</p>
-    </footer>
-
-	
-	<?php get_footer(); ?>
-
-</body>
-</html>
