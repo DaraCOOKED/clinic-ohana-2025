@@ -9,19 +9,18 @@
       <a href="#">Ohana Clinic</a>
     </div>
 
-    <nav class="main-nav">
-      <a href="#">Home</a>
-      <a href="#">First Visit</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Access</a>
-      <a href="#">Contact</a>
+                     
+    <nav class="pro-nav">
+      <a href="">Home</a> 
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">Doctors</a>
+      <a href="">Careers</a>
+      <a href="">Contact Us</a>
     </nav>
 
-    <div class="header-cta">
-      <span class="phone">03-3987-3090</span>
-      <a href="#" class="book">Web Booking</a>
-    </div>
+    <a href="" class="pro-cta">Find Us</a>
+
   </div>
 </header>
 
