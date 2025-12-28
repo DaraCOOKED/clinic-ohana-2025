@@ -345,7 +345,6 @@ body {
 .appointment-cta__btn:hover {
   background: #555;
   transform: translateY(-2px);
-
 }
 
 .contact-section {
@@ -462,4 +461,3 @@ textarea {
 
  .contact-section .form-group label p{
     margin-right: 0px;
-  }

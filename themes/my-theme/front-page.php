@@ -110,22 +110,7 @@
                 <div class="image-placeholder small-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/technology.png" alt="Ohana Clinic">
                 </div>
-                <h3>Counseling Support</h3>
-                <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
-            </div>
 
-            <div class="strength-card">
-                <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/counseling.png" alt="Ohana Clinic">
-                </div>
-                <h3>Counseling Support</h3>
-                <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
-            </div>
-
-            <div class="strength-card">
-                <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/technology.png" alt="Ohana Clinic">
-                </div>
                 <h3>Advanced Technology</h3>
                 <p>We actively participate in academic conferences to integrate the latest medical knowledge. By creating the optimal culture environment and using cutting-edge testing, we strive to maximize pregnancy success rates.</p>
             </div>
@@ -182,7 +167,6 @@
             <p>We provide a wide range of specialized care, including gynecological oncology with Professor Kyoko Tanaka, male infertility specialists, and fetal ultrasounds with Professor Mamoru Tanaka from Keio University. We ensure you receive the best care through our extensive medical network.</p>
         </section>
 
-
     </main>
 
 
@@ -190,4 +174,5 @@
     <?php get_footer(); ?>
 </body>
 </html>
-    </main>
+
+
