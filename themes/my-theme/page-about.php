@@ -9,69 +9,8 @@
 
 </head>
 <body>
-	<?php get_header(); ?>
-	
-	
-<section class="page-hero">
-  <div class="page-hero-inner">
-    <h1>Our hospital philosophy and strengths</h1>
-
-    <nav class="breadcrumb">
-      <a href="#">Home</a>
-      <span>›</span>
-      <a href="#">About our hospital</a>
-      <span>›</span>
-      <span class="current">Our hospital philosophy and strengths</span>
-    </nav>
-  </div>
-</section>
-<section class="philosophy">
-  <div class="philo-inner">
-    <h2>Our hospital philosophy</h2>
-    <div class="philo-line"></div>
-
-    <p class="philo-quote">“More friendly infertility treatment”</p>
-
-    <p class="philo-text">
-      These words express our desire to encourage communication and friendship between patients,
-      doctors, and staff, so that infertility treatment, which can often be a gloomy experience,
-      can be carried out in a positive manner. Our approximately 40 staff members will do their
-      utmost to support as many patients as possible so that they can have children.
-    </p>
-  </div>
-</section>
 
 
-
-
-
-<section class="info-section">
-  <div class="info-wrap">
-	
-    <div class="info-text">
-		
-      <p>
-        Located a one-minute walk from Ikebukuro Exit 35, our clinic is open weekdays from
-        8:00 AM to 8:00 PM (Mondays, Wednesdays, and Fridays), including weekends and holidays.
-        We strive to remain a convenient clinic for our patients. To that end, we regularly
-        conduct patient surveys and incorporate their feedback.
-      </p>
-
-      <p>
-        Based on many of our patients' feedback, we have established a system where patients
-        can arrive at our clinic at 8:00 AM on weekdays and have their consultation and payment
-        completed by 9:00 AM, allowing them to prioritize their work and life commitments.
-        Additionally, for those who wish to leave the clinic earlier than 9:00 AM, we offer a
-        system where patients can leave immediately after their blood draw and pelvic exam and
-        receive the results and treatment plan via phone.
-      </p>
-    </div>
-
-    <div class="info-image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/Doctor-1.jpg" alt="Clinic location" />
-    </div>
-  </div>
-</section>
 
 <section class="same-doctor">
   <div class="same-doctor__container">
@@ -246,7 +185,6 @@ for (let i = 0; i < array.length; i++) {
 
   
 f
-	
 	<?php get_footer(); ?>
 
 </body>

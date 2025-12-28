@@ -3,13 +3,10 @@
 <head><?php wp_head(); ?></head>
 <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
 <body <?php body_class(); ?>>
-
-
-
-<header class="pro-header">
-  <div class="pro-inner">
-    <div class="pro-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/output.png" alt=" Clinic Logo">
+<header class="clinic-header">
+  <div class="header-inner">
+    <div class="logo">
+      <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/output.png" alt=""></a>
     </div>
                      
     <nav class="pro-nav">
@@ -22,7 +19,12 @@
     </nav>
 
     <a href="" class="pro-cta">Find Us</a>
+
   </div>
 </header>
+
+
+
+
 
 <main>
