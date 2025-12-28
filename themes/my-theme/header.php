@@ -6,7 +6,7 @@
 <header class="clinic-header">
   <div class="header-inner">
     <div class="logo">
-      <a href="#">Ohana Clinic</a>
+      <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/output.png" alt=""></a>
     </div>
                      
     <nav class="pro-nav">
