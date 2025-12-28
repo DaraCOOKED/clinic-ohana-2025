@@ -1,6 +1,25 @@
 <?php get_header(); ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/about-page.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+
+
+<!-- Header -->
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <h1>Our hospital philosophy and strengths</h1>
+
+    <nav class="breadcrumb">
+      <a href="#">Home</a>
+      <span>›</span>
+      <a href="#">About our hospital</a>
+      <span>›</span>
+      <span class="current">Our hospital philosophy and strengths</span>
+    </nav>
+  </div>
+</section>
+
 <section class="same-doctor">
   <div class="same-doctor__container">
     <div class="same-doctor__text">
@@ -121,17 +140,28 @@
   </form>
 </section>
 
-<section>
-<div class="swiper logoSwiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-1.avif"></div>
-    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-2.avif"></div>
-    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-3.avif"></div>
-    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-4.avif"></div>
-    <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/during-work-5.avif"></div>
+<div class="brand-slider">
+  <div class="brand-track">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand1.svg" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand2.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand3.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand4.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand5.png" alt="Brand">
+    <!-- duplicate for seamless loop -->
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand6.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand7.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand8.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand9.jpg" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand5.png" alt="Brand">
+    <!-- sence 3 -->
+     <img src="<?php echo get_template_directory_uri(); ?>/images/brand1.svg" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand2.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand3.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand4.png" alt="Brand">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/brand5.png" alt="Brand">
   </div>
 </div>
-</section>
+
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
@@ -159,7 +189,7 @@ for (let i = 0; i < array.length; i++) {
   const element = array[i];
   const swiper = new Swiper('.logoSwiper', {
     slidesPerView: 'auto',
-    spaceBetween: 25,
+    spaceBetween: 50,
     loop: true,
     speed: 1500,
     autoplay: {
@@ -169,6 +199,16 @@ for (let i = 0; i < array.length; i++) {
     },
   });
 }
+
+const slider = document.querySelector('.brand-track');
+
+slider.addEventListener('mouseenter', () => {
+  slider.style.animationPlayState = 'paused';
+});
+
+slider.addEventListener('mouseleave', () => {
+  slider.style.animationPlayState = 'running';
+});
 
   </script>
 
