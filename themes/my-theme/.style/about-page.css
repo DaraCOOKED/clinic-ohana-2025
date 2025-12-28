@@ -333,7 +333,7 @@ body {
   align-items: center;
   gap: 10px;
   padding: 18px 36px;
-  background: #f5e6d8;
+  background: #1e3a8a;
   color: #fff;
   border-radius: 12px;
   font-size: 18px;
@@ -462,3 +462,27 @@ textarea {
  .contact-section .form-group label p{
     margin-right: 0px;
   }
+
+  .brand-slider {
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+}
+
+.brand-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.brand-track img {
+  height: 60px;
+  margin: 0 40px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
