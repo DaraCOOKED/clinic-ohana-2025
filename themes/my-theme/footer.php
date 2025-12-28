@@ -1,48 +1,44 @@
 </main>
-<footer>
-      <div class="footer-inner">
+<footer class="site-footer">
+  <div class="footer-container">
+    
     <div class="footer-brand">
-      <div class="footer-logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/output.png" alt="">
-      </div>
-      <p class="footer-desc">
-        Providing trusted medical care with compassion and professionalism.
-      </p>
+      <h2>Ohana Clinic</h2>
+      <p>Providing trusted healthcare with compassion and professionalism.</p>
     </div>
 
     <div class="footer-links">
-      <div class="footer-col">
-        <h4>Clinic</h4>
-        <a href="#">About</a>
-        <a href="#">Doctors</a>
-        <a href="#">Services</a>
-        <a href="#">Access</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>Support</h4>
-        <a href="#">First Visit</a>
-        <a href="#">FAQ</a>
-        <a href="#">Contact</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Use</a>
-      </div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Doctors</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
 
     <div class="footer-contact">
-      <p><strong>Phone:</strong> 03-3987-3090</p>
-      <p><strong>Email:</strong> info@ohanaclinic.com</p>
-      <p><strong>Address:</strong> 123 Wellness St, City</p>
+      <h4>Contact</h4>
+      <p>📍 Phnom Penh, Cambodia</p>
+      <p>📞 +855 12 345 678</p>
+      <p>✉️ contact@ohanaclinic.com</p>
     </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+
   </div>
 
-<div class="footer-bottom">
-  <p>© <?php echo date('Y'); ?> Clinic Ohana</p>
-</div>
+  <div class="footer-bottom">
+    <p>© 2025 Ohana Clinic. All rights reserved.</p>
+  </div>
 </footer>
+
 
 </body></html>
