@@ -11,8 +11,7 @@
 <<<<<<< HEAD
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-=======
->>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
+
 
 </head>
 <body>
