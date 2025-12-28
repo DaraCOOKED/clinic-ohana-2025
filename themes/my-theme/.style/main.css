@@ -61,7 +61,11 @@
 /* Sections */
 .section-title {
     font-size: 2rem;
+<<<<<<< HEAD
     color: #000000;
+=======
+    color: #6b4f4f;
+>>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
     margin-bottom: 20px;
     text-align: center;
 }
@@ -94,7 +98,10 @@
     font-weight: bold;
     border-radius: 8px;
     border: 2px dashed #ccc;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+>>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
 }
 
 .main-img {
@@ -103,6 +110,7 @@
 }
 
 .small-img {
+<<<<<<< HEAD
     height: 300px;
     margin-bottom: 15px;
 }
@@ -112,6 +120,11 @@
     object-fit: cover;
     border-radius: 8px;
 }
+=======
+    height: 200px;
+    margin-bottom: 15px;
+}
+>>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
 
 /* Strengths Grid */
 .strengths-grid {
@@ -146,6 +159,7 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 
 .container {
     max-width: 1100px;
@@ -358,4 +372,23 @@ nav ul li a {
     font-weight: 700;
     line-height: 1.1; /* Tight line height for stacked words */
     word-wrap: break-word;
+=======
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .philosophy-main {
+        flex-direction: column;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+>>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
 }
