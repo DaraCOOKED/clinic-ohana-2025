@@ -61,6 +61,7 @@
 /* Sections */
 .section-title {
     font-size: 2rem;
+    color: #000000;
     margin-bottom: 20px;
     text-align: center;
 }
