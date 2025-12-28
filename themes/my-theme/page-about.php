@@ -145,11 +145,8 @@ for (let i = 0; i < array.length; i++) {
 
   
 f
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
 	
 	<?php get_footer(); ?>
 
