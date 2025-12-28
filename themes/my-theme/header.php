@@ -10,7 +10,7 @@
     </div>
                      
     <nav class="pro-nav">
-      <a href="">Home</a> 
+      <a href="http://clinic-ohana.test/">Home</a> 
       <a href="http://clinic-ohana.test/about/">About</a>
       <a href="">Services</a>
       <a href="">Doctors</a>
