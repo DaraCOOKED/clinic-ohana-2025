@@ -2,7 +2,7 @@
 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
 
 
