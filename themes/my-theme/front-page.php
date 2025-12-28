@@ -190,3 +190,4 @@
     <?php get_footer(); ?>
 </body>
 </html>
+    </main>
