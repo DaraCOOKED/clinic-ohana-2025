@@ -8,7 +8,6 @@
     <div class="logo">
       <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/output.png" alt=""></a>
     </div>
-
                      
     <nav class="pro-nav">
       <a href="">Home</a> 

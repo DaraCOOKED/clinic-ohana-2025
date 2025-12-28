@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-
 </head>
 <body>
 
@@ -101,7 +99,6 @@
             </div>
 
             <div class="strength-card">
-
                 <div class="image-placeholder small-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/counseling.png" alt="Ohana Clinic">
                 </div>
@@ -113,29 +110,13 @@
                 <div class="image-placeholder small-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/technology.png" alt="Ohana Clinic">
                 </div>
-                <h3>Counseling Support</h3>
-                <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
-            </div>
 
-            <div class="strength-card">
-                <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/counseling.png" alt="Ohana Clinic">
-                </div>
-                <h3>Counseling Support</h3>
-                <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
-            </div>
-
-            <div class="strength-card">
-                <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/technology.png" alt="Ohana Clinic">
-                </div>
                 <h3>Advanced Technology</h3>
                 <p>We actively participate in academic conferences to integrate the latest medical knowledge. By creating the optimal culture environment and using cutting-edge testing, we strive to maximize pregnancy success rates.</p>
             </div>
 
         </section>
 
-<<<<<<< HEAD
        
         <!-- Swiper -->
   <div class="swiper mySwiper">
@@ -193,4 +174,5 @@
     <?php get_footer(); ?>
 </body>
 </html>
-    </main>
+
+
