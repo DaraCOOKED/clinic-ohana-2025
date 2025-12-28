@@ -11,6 +11,46 @@
 <body>
 
 
+
+<section class="same-doctor">
+  <div class="same-doctor__container">
+    <div class="same-doctor__text">
+      <h2>Same doctor's visit</h2>
+      <p>
+        When multiple doctors treat one patient, there is a possibility that the treatment plan
+        and explanations given by each doctor may differ. However, at our hospital, the director
+        alone decides the treatment plan, performs the examination and surgery, so there are no
+        differences of opinion between doctors. We listen to the opinions and wishes of patients
+        and create an environment where communication is easy.
+      </p>
+    </div>
+
+    <div class="same-doctor__image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/nek-kru-india.jpg" alt="">
+    </div>
+  </div>
+</section>
+<section class="same-doctor">
+  <div class="same-doctor__container">
+    <div class="same-doctor__text">
+      <h2>Counseling System</h2>
+      <p>
+        We have staff who are qualified infertility counselors and nurses with midwifery qualifications, so we can talk to you about a variety of topics.
+        We listen carefully to what our patients have to say and all of our staff are eager to support you, so 
+		please feel free to contact us with any concerns you may have.
+      </p>
+    </div>
+
+    <div class="same-doctor__image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/counseling-system.webp" alt="">
+    </div>
+  </div>
+</section>
+
+
+<section class="workspace-section">
+  <h2 class="workspace-title">Our workspace</h2>
+
    <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -145,9 +185,6 @@ for (let i = 0; i < array.length; i++) {
 
   
 f
-
-
-	
 	<?php get_footer(); ?>
 
 </body>
