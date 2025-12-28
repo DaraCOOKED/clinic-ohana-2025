@@ -20,6 +20,42 @@
   </div>
 </section>
 
+<section class="clinic-section">
+  <div class="clinic-container">
+    <div class="clinic-text">
+      <h2>Easy-to-access medical system</h2>
+      <div class="clinic-line"></div>
+
+      <p>
+        Located a one-minute walk from Ikebukuro Exit 35, our clinic is open
+        weekdays from 8:00 AM to 8:00 PM (Mondays, Wednesdays, and Fridays),
+        including weekends and holidays. We strive to remain a convenient
+        clinic for our patients.
+      </p>
+
+      <p>
+        To that end, we regularly conduct patient surveys and incorporate
+        their feedback. Based on many of our patients' feedback, we have
+        established a system where patients can arrive at our clinic at
+        8:00 AM on weekdays and have their consultation and payment completed
+        by 9:00 AM, allowing them to prioritize their work and life
+        commitments.
+      </p>
+
+      <p>
+        Additionally, for those who wish to leave the clinic earlier than
+        9:00 AM, we offer a system where patients can complete their visit
+        efficiently.
+      </p>
+    </div>
+
+    <div class="clinic-image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/banner.jpg" alt="Ikebukuro Station Exit 35">
+    </div>
+  </div>
+</section>
+
+
 <section class="same-doctor">
   <div class="same-doctor__container">
     <div class="same-doctor__text">
