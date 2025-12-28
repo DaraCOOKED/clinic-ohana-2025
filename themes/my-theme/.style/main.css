@@ -64,12 +64,8 @@
 <<<<<<< HEAD
     color: #000000;
 =======
-<<<<<<< HEAD
-    color: #000000;
-=======
     color: #6b4f4f;
 >>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
->>>>>>> 781a22f (Resolve merge conflicts in main.css and clean up unused styles)
     margin-bottom: 20px;
     text-align: center;
 }
@@ -102,7 +98,14 @@
     font-weight: bold;
     border-radius: 8px;
     border: 2px dashed #ccc;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+<<<<<<< HEAD
+    margin-top: 30px;
+=======
+>>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
+>>>>>>> 781a22f (Resolve merge conflicts in main.css and clean up unused styles)
 }
 
 .main-img {
@@ -111,6 +114,10 @@
 }
 
 .small-img {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 781a22f (Resolve merge conflicts in main.css and clean up unused styles)
     height: 300px;
     margin-bottom: 15px;
 }
@@ -120,6 +127,14 @@
     object-fit: cover;
     border-radius: 8px;
 }
+<<<<<<< HEAD
+=======
+=======
+    height: 200px;
+    margin-bottom: 15px;
+}
+>>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
+>>>>>>> 781a22f (Resolve merge conflicts in main.css and clean up unused styles)
 
 /* Strengths Grid */
 .strengths-grid {
@@ -154,6 +169,10 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 781a22f (Resolve merge conflicts in main.css and clean up unused styles)
 
 .container {
     max-width: 1100px;
@@ -366,4 +385,26 @@ nav ul li a {
     font-weight: 700;
     line-height: 1.1; /* Tight line height for stacked words */
     word-wrap: break-word;
+<<<<<<< HEAD
+=======
+=======
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .philosophy-main {
+        flex-direction: column;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+>>>>>>> 7faf58b23db22fe7b4e7a8e4165a4a537e5eb666
+>>>>>>> 781a22f (Resolve merge conflicts in main.css and clean up unused styles)
 }
