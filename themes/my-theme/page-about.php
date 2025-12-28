@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About-Page</title>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/about-page.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
-</head>
-<body>
-
-
-
+<?php get_header(); ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/.style/about-page.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 <section class="same-doctor">
   <div class="same-doctor__container">
     <div class="same-doctor__text">
@@ -184,8 +173,4 @@ for (let i = 0; i < array.length; i++) {
   </script>
 
   
-f
-	<?php get_footer(); ?>
-
-</body>
-</html>
+<?php get_footer(); ?>
