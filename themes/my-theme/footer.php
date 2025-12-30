@@ -62,7 +62,7 @@
       <h4>Location</h4>
 <div class="footer-map">
   <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1916.499748946289!2d104.92799251552458!3d11.556519503970437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513061529c77%3A0x435a6eb1fbe5e8c7!2sIndependence%20Monument%2C%20Preah%20Sihanouk%20Blvd%20(274)%2C%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1766915006555!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.829004800171!2d-157.7547191!3d21.278235199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0012ae6289043d%3A0xd52ac6942826d404!2sOhana%20Clinic!5e0!3m2!1sen!2skh!4v1767075935397!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
   </iframe>
 </div>
 
