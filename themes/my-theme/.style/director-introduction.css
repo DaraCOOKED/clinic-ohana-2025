@@ -1,0 +1,281 @@
+.page-hero {
+  width: 100%;
+  min-height: 260px;
+  background: linear-gradient(to right, #f5e6d8, #f7b7d2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-hero-inner {
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+.page-hero h1 {
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: #4b2a16;
+  margin-bottom: 28px;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: #6b3b1f;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.breadcrumb a {
+  color: #6b3b1f;
+  text-decoration: underline;
+}
+
+.breadcrumb a:hover {
+  text-decoration: none;
+}
+
+.breadcrumb .current {
+  text-decoration: none;
+  color: #6b3b1f;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .page-hero h1 {
+    font-size: 28px;
+    letter-spacing: 0.08em;
+  }
+
+  .page-hero {
+    min-height: 200px;
+  }
+}
+
+
+.director-section {
+  padding: 100px 20px;
+  background-color: #ffffff;
+}
+
+.director-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.director-title {
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.director-title::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #f0c27b;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.director-message {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  color: #333;
+  max-width: 500px;
+}
+
+.director-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.director-list li {
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.6;
+  color: #444;
+}
+
+.director-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #c59a5a;
+}
+
+.director-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .director-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .director-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .director-message {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .director-image img {
+    margin: auto;
+  }
+}
+
+
+.career-section {
+  padding: 80px 20px;
+  background: #fffaf3;
+}
+
+.career-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.career-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #4a2c1d;
+}
+
+.career-line {
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #e0b15c;
+  margin: 10px 0 30px;
+}
+
+.career-desc {
+  max-width: 750px;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.career-table {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.career-row {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 2fr;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.career-row:last-child {
+  border-bottom: none;
+}
+
+.career-row div {
+  padding: 14px 16px;
+  font-size: 15px;
+  color: #333;
+}
+
+.career-head {
+  background: #f4d88c;
+  font-weight: 600;
+  color: #5a3a00;
+}
+
+.career-row:nth-child(even):not(.career-head) {
+  background: #fffdf7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .career-row {
+    grid-template-columns: 1fr;
+  }
+
+  .career-head {
+    display: none;
+  }
+
+  .career-row div {
+    border-bottom: 1px dashed #ddd;
+  }
+}
+
+
+.affiliation-section {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.affiliation-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.affiliation-title {
+  font-size: 38px;
+  font-weight: 500;
+  color: #4a2c1d;
+  margin-bottom: 10px;
+}
+
+.affiliation-line {
+  display: block;
+  width: 140px;
+  height: 3px;
+  background: #e0b15c;
+  margin-bottom: 40px;
+}
+
+.affiliation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.affiliation-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.affiliation-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #c18a2e;
+  font-size: 22px;
+  line-height: 1;
+}
+
+/* Responsi*
