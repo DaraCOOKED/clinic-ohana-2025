@@ -1,0 +1,131 @@
+.page-hero {
+  width: 100%;
+  min-height: 260px;
+  background: linear-gradient(to right, #f5e6d8, #f7b7d2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-hero-inner {
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+.page-hero h1 {
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: #4b2a16;
+  margin-bottom: 28px;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: #6b3b1f;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.breadcrumb a {
+  color: #6b3b1f;
+  text-decoration: underline;
+}
+
+.breadcrumb a:hover {
+  text-decoration: none;
+}
+
+.breadcrumb .current {
+  text-decoration: none;
+  color: #6b3b1f;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .page-hero h1 {
+    font-size: 28px;
+    letter-spacing: 0.08em;
+  }
+
+  .page-hero {
+    min-height: 200px;
+  }
+}
+
+.doctor-card {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  gap: 40px;
+}
+
+.doctor-content {
+  max-width: 550px;
+}
+
+.doctor-name {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #4a2c1d;
+}
+
+.doctor-line {
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #d6a04c;
+  margin-bottom: 25px;
+}
+
+.doctor-day {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.doctor-info {
+  padding-left: 20px;
+}
+
+.doctor-info li {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.doctor-image img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .doctor-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .doctor-line {
+    margin: 0 auto 25px;
+  }
+
+  .doctor-image img {
+    max-width: 220px;
+  }
+}
