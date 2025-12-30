@@ -19,24 +19,7 @@
         </div>
     </section>
 
-    <section class="strengths container">
-        <h2 class="section-title">Our Strengths</h2>
-        <div class="grid">
-            <?php
-            $strengths = [
-                ["Title" => "Flexible Hours", "Desc" => "Open from 8:00 AM to 8:00 PM for working professionals."],
-                ["Title" => "High Success Rates", "Desc" => "Utilizing the latest technology for optimal results."],
-                ["Title" => "Consistent Care", "Desc" => "Consult with the same doctor for a personalized plan."]
-            ];
-            foreach ($strengths as $item): ?>
-                <div class="card">
-                    <h3><?php echo $item['Title']; ?></h3>
-                    <p><?php echo $item['Desc']; ?></p>
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </section>
-    <main class="container">
+
 
 
     <div class="nav-container">
@@ -66,6 +49,28 @@
     </div>
 
 
+    <section class="strengths container">
+        <h2 class="section-title">Our Strengths</h2>
+        <div class="grid">
+            <?php
+            $strengths = [
+                ["Title" => "Flexible Hours", "Desc" => "Open from 8:00 AM to 8:00 PM for working professionals."],
+                ["Title" => "High Success Rates", "Desc" => "Utilizing the latest technology for optimal results."],
+                ["Title" => "Consistent Care", "Desc" => "Consult with the same doctor for a personalized plan."]
+            ];
+            foreach ($strengths as $item): ?>
+                <div class="card">
+                    <h3><?php echo $item['Title']; ?></h3>
+                    <p><?php echo $item['Desc']; ?></p>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </section>
+    <main class="container">
+
+
+
+
 
 
 
@@ -73,7 +78,7 @@
 
             <div class="strength-card">
                 <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/doctor.png" alt="Ohana Clinic"> 
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/1.png" alt="Ohana Clinic"> 
                 
             </div>
                 <h3>Accessible Medical Care</h3>
@@ -82,7 +87,7 @@
 
             <div class="strength-card">
                 <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/care.png" alt="Ohana Clinic">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/3.png" alt="Ohana Clinic">
                 </div>
                 <h3>Consistent Care by the Director</h3>
                 <p>To avoid discrepancies in treatment plans, the Director personally handles policy decisions, consultations, and surgeries. This ensures a consistent medical opinion and an environment where it is easy to communicate your wishes.</p>
@@ -90,7 +95,7 @@
 
             <div class="strength-card">
                 <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/counseling.png" alt="Ohana Clinic">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/2.jpg" alt="Ohana Clinic">
                 </div>
                 <h3>Counseling Support</h3>
                 <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
@@ -98,28 +103,10 @@
 
             <div class="strength-card">
                 <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/technology.png" alt="Ohana Clinic">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/4.jpg" alt="Ohana Clinic">
                 </div>
                 <h3>Counseling Support</h3>
                 <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
-            </div>
-
-
-            <div class="strength-card">
-                <div class="image-placeholder small-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/counseling.png" alt="Ohana Clinic">
-                </div>
-                <h3>Counseling Support</h3>
-                <p>Our staff includes certified infertility counselors and midwives. We listen closely to your concerns and provide support from various professional perspectives to ease your anxieties.</p>
-            </div>
-
-            <div class="strength-card">
-                <div class="image-placeholder small-img">
-
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/technology.png" alt="Ohana Clinic">
-                </div>
-                <h3>Advanced Technology</h3>
-                <p>We actively participate in academic conferences to integrate the latest medical knowledge. By creating the optimal culture environment and using cutting-edge testing, we strive to maximize pregnancy success rates.</p>
             </div>
 
         </section>
@@ -174,9 +161,45 @@
             <p>We provide a wide range of specialized care, including gynecological oncology with Professor Kyoko Tanaka, male infertility specialists, and fetal ultrasounds with Professor Mamoru Tanaka from Keio University. We ensure you receive the best care through our extensive medical network.</p>
         </section>
 
-    </main>
+    
+
+
+ <div class="rooms-container">
+    <div class="room">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/waiting room.jpg" alt="Waiting room">
+      <p>Waiting room</p>
+    </div>
+    <div class="room">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/consultation room.jpg" alt="Consultation room">
+      <p>Consultation room</p>
+    </div>
+    <div class="room">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/treatment room.jpg" alt="Treatment room">
+      <p>Treatment room</p>
+    </div>
+  </div>
+
+</main>
+
+
+
+    
+
+    
 
 
 
 
-    <?php get_footer(); ?>
+
+    
+
+
+<div class="gallery-container">
+  <h2 class="gallery-title">Gallery</h2>
+  
+</div>
+
+
+
+
+<?php get_footer(); ?>

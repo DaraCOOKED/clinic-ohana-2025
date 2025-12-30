@@ -30,13 +30,13 @@
     </div>
   </div>
 
+
   <a href="http://clinic-ohana.test/services/">Services</a>
   <a href="http://clinic-ohana.test/doctors/">Doctors</a>
   <a href="http://clinic-ohana.test/careers/">Careers</a>
   <a href="http://clinic-ohana.test/contact-us/">Contact Us</a>
 
 </nav>
-
 
 
 
@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+
 
 
 
