@@ -21,6 +21,21 @@
 </section>
 
 
+<section class="appointment-cta">
+  <div class="appointment-cta__container">
+    <h2>Make an appointment with an ophthalmologist</h2>
+
+    <p class="appointment-cta__phone">
+      Have questions?
+      <a href="tel:+855087465283">(+855) 097-566-9924</a>
+    </p>
+
+    <a href="/contact" class="appointment-cta__btn">
+       	Book an Appointment
+    </a>
+  </div>
+</section>
+
 <section class="inquiry-section">
   <div class="inquiry-container">
     <h2 class="inquiry-title">inquiry</h2>
@@ -38,51 +53,6 @@
   </div>
 </section>
 
-<section class="contact-form-section">
-  <div class="contact-container">
-    <h2 class="contact-title">Contact form</h2>
-    <div class="contact-line"></div>
-
-    <form class="contact-form">
-      <div class="form-row">
-        <label>Type of inquiry <span class="required">Required</span></label>
-        <select class="nice-select">
-    <option>About medical treatment</option>
-    <option>About appointment</option>
-    <option>Other</option>
-    </select>
-
-      </div>
-
-      <div class="form-row">
-        <label>Name <span class="required">Required</span></label>
-        <input type="text">
-      </div>
-
-      <div class="form-row">
-        <label>Furigana <span class="required">Required</span></label>
-        <input type="text">
-      </div>
-
-      <div class="form-row">
-        <label>Email address <span class="required">Required</span></label>
-        <input type="email">
-      </div>
-
-      <div class="form-row">
-        <label>Telephone number <span class="required">Required</span></label>
-        <input type="tel">
-      </div>
-
-      <div class="form-row textarea-row">
-        <label>Inquiry details <span class="required">Required</span></label>
-        <textarea rows="5"></textarea>
-      </div>
-
-      <button type="submit" class="submit-btn">Submit</button>
-    </form>
-  </div>
-</section>
 
 <section class="about-me">
   <h2 class="section-title">The Responsible</h2>
@@ -137,6 +107,57 @@
     </div>
   </div>
 </section>
+
+
+
+
+<section class="contact-form-section">
+  <div class="contact-container">
+    <h2 class="contact-title">Contact form</h2>
+    <div class="contact-line"></div>
+
+    <form class="contact-form">
+      <div class="form-row">
+        <label>Type of inquiry <span class="required">Required</span></label>
+        <select class="nice-select">
+    <option>About medical treatment</option>
+    <option>About appointment</option>
+    <option>Other</option>
+    </select>
+
+      </div>
+
+      <div class="form-row">
+        <label>Name <span class="required">Required</span></label>
+        <input type="text">
+      </div>
+
+      <div class="form-row">
+        <label>Furigana <span class="required">Required</span></label>
+        <input type="text">
+      </div>
+
+      <div class="form-row">
+        <label>Email address <span class="required">Required</span></label>
+        <input type="email">
+      </div>
+
+      <div class="form-row">
+        <label>Telephone number <span class="required">Required</span></label>
+        <input type="tel">
+      </div>
+
+      <div class="form-row textarea-row">
+        <label>Inquiry details <span class="required">Required</span></label>
+        <textarea rows="5"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</section>
+
+
 
 
 
