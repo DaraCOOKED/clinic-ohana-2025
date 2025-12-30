@@ -278,6 +278,58 @@
   }
 }
 
+/* Hamburger */
+.mobile-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #000;
+  display: block;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .pro-nav {
+    display: flex !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+  .mobile-toggle {
+    display: flex;
+  }
+
+  .pro-nav {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  }
+
+  .pro-nav.active {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: static;
+    box-shadow: none;
+  }
+}
+
 
 .footer-nav {
   max-width: 1200px;

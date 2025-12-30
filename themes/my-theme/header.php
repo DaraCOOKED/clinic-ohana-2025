@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<head><?php wp_head(); ?></head>
+ <?php wp_head(); ?>
 <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
 <body <?php body_class(); ?>>
 <header class="clinic-header">
@@ -43,10 +43,6 @@
   </div>
 </header>
 <script>
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
 
   const toggle = document.querySelector(".mobile-toggle");
@@ -54,41 +50,26 @@ document.addEventListener("DOMContentLoaded", function () {
   const dropdown = document.querySelector(".dropdown-toggle");
   const dropdownMenu = document.querySelector(".dropdown-menu");
 
-  if (!toggle || !nav) {
-    console.log("Menu elements not found");
-    return;
-  }
-
-  // Toggle main menu
-  toggle.addEventListener("click", function () {
+  toggle?.addEventListener("click", function (e) {
+    e.stopPropagation();
     nav.classList.toggle("active");
   });
 
-  // Toggle dropdown on mobile
-  if (dropdown && dropdownMenu) {
-    dropdown.addEventListener("click", function (e) {
-      if (window.innerWidth < 992) {
-        e.preventDefault();
-        dropdownMenu.style.display =
-          dropdownMenu.style.display === "block" ? "none" : "block";
-      }
-    });
-  }
-
-  // Close dropdown when clicking outside
-  document.addEventListener("click", function (e) {
-    if (!e.target.closest(".nav-dropdown")) {
-      if (dropdownMenu) dropdownMenu.style.display = "none";
+  dropdown?.addEventListener("click", function (e) {
+    if (window.innerWidth < 992) {
+      e.preventDefault();
+      e.stopPropagation();
+      dropdownMenu.classList.toggle("active");
     }
   });
 
+  document.addEventListener("click", function () {
+    dropdownMenu?.classList.remove("active");
+  });
+
 });
-
-
-
-
-
 </script>
+
 
 
 
