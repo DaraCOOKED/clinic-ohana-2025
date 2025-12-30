@@ -31,7 +31,7 @@
       <table class="footer-table">
         <thead>
           <tr>
-            <th>month</th><th>fire</th><th>water</th><th>tree</th><th>gold</th><th>soil</th><th>Sundays/holidays</th>
+            <th>month</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Sundays/holidays</th>
           </tr>
         </thead>
         <tbody>
