@@ -196,7 +196,58 @@
 
 <div class="gallery-container">
   <h2 class="gallery-title">Gallery</h2>
-  
+    
+   <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/gallery_01.webp" alt="Ohana Clinic"></div>
+      <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/gallery_02.webp" alt="Ohana Clinic"></div>
+      <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/gallery_03.webp" alt="Ohana Clinic"></div>
+      <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/gallery_04.webp" alt="Ohana Clinic"></div>
+      <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/gallery_05.webp" alt="Ohana Clinic"></div>
+      <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/gallery_06.webp" alt="Ohana Clinic"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="autoplay-progress">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      on: {
+        autoplayTimeLeft(s, time, progress) {
+          progressCircle.style.setProperty("--progress", 1 - progress);
+          progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+      }
+    });
+  </script>
 </div>
 
 
